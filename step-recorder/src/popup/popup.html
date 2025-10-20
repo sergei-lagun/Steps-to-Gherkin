@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step Recorder</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="row">
+    <label>
+      <input id="toggle" type="checkbox">
+      Recording enabled
+    </label>
+    <span class="grow"></span>
+    <button id="refresh">Refresh</button>
+    <button id="clear">Clear</button>
+  </div>
+  
+  <div class="row">
+    <input id="feature" class="grow" placeholder="Feature name (optional)" />
+  </div>
+  
+  <textarea id="gherkin" readonly placeholder="Gherkin export will appear here"></textarea>
+  
+  <p class="help-text">
+    Records <code>click</code>, <code>input</code>, <code>submit</code>, and <code>navigate</code> events. 
+    Copy the output to a .feature file.
+  </p>
+  
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

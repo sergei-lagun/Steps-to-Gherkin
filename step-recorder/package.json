@@ -1,0 +1,28 @@
+{
+  "name": "step-recorder-gherkin",
+  "version": "0.2.0",
+  "description": "Chrome extension that records user interactions and exports them as Gherkin scenarios",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "echo 'No tests yet'",
+    "build": "echo 'No build process needed for this extension'",
+    "dev": "echo 'Load as unpacked extension in Chrome'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "gherkin",
+    "bdd",
+    "testing",
+    "automation",
+    "recording"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
